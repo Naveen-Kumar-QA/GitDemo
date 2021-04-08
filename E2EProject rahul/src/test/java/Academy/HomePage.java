@@ -24,6 +24,7 @@ public class HomePage extends base{
 	{
 	
 		 driver =initializeDriver();
+		 System.out.println("Driver initialized");
 
 	}
 	@Test(dataProvider="getData")
