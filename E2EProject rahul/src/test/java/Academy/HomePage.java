@@ -48,6 +48,7 @@ public class HomePage extends base{
 		fp.getEmail().sendKeys("xxx");
 		fp.sendMeInstructions().click();
 		
+		System.out.println("develop branch created");
 		
 		
 		}
